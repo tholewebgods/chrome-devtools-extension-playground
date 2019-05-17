@@ -1,0 +1,16 @@
+{
+	"name": "Chrome dev tools extension example",
+	"version": "1.0",
+	"description": "Extension to learn/understand Chrome extensions",
+	"manifest_version": 2,
+	"devtools_page": "devtools.html",
+	"permissions": [
+		"storage",
+		"file:///*",
+		"http://*/*",
+		"https://*/*"
+	],
+	"background": {
+		"scripts": ["background.js"]
+	}
+}
